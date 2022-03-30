@@ -1,4 +1,4 @@
-export const basic_url = process.env.NODE_ENV === "production" ? "https://buy-sub.herokuapp.com/Api":"http://localhost:11000/Api";
+export const basic_url = process.env.NODE_ENV === "production" ? "https://buysub-xz.herokuapp.com/Api":"http://localhost:11000/Api";
 
 export const GetAllUsers = async (): Promise<any> => {  
   let options = {
