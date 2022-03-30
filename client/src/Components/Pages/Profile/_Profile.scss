@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@1,600&display=swap');
+
+.containerToAllProfilePage{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 98vw;
+    height: 100vh;
+    font-family: 'Red Hat Mono', monospace;
+    font-size:1.5rem;
+
+    .buttonsContainer{
+        height: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+    .background{
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/17/14/31/background-1747786__340.jpg");
+    background-size:cover;
+    filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    position: absolute;
+    }
+    
+
+    .cardProfile{
+        text-align: center;
+        .card-image {
+            width: 88%;
+            height: 70%;
+            background-size: cover;
+            border-radius: 50%;
+            border:2px solid black;
+            cursor:not-allowed;
+        }
+        .cardTitle{
+            color: grey;
+        }
+
+    }
+    
+}
+
+
+
+
+
+
+
